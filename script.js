@@ -1,1 +1,0 @@
-document.querySelectorAll('[data-message]').forEach(function(el){function go(){var s=document.querySelector('[data-status]');if(s)s.textContent=el.dataset.message;}el.addEventListener('click',go);el.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();go();}});});
